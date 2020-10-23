@@ -8,8 +8,8 @@ Pod::Spec.new do |s|
   s.homepage     = 'https://github.com/sunmumu/GDPFollowButton'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.authors      = { 'sunmumu' => '335089101@qq.com' }
-  s.platform     = :ios, '8.0'
-  s.ios.deployment_target = '8.0'
+  s.platform     = :ios, '9.0'
+  s.ios.deployment_target = '9.0'
   s.source       = { :git => 'https://github.com/sunmumu/GDPFollowButton.git', :tag => s.version.to_s }
   s.requires_arc = true
   s.source_files = 'GDPFollowButton/**/*.{h,m}'
