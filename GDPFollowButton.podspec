@@ -3,7 +3,7 @@
 
 Pod::Spec.new do |s|
   s.name         = 'GDPFollowButton'
-  s.version      = '1.0.2'
+  s.version      = '1.0.3'
   s.summary      = 'Follow/follow each other/followed/not followed, multi-state buttons'
   s.homepage     = 'https://github.com/sunmumu/GDPFollowButton'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
