@@ -60,7 +60,11 @@
 
 - (UIActivityIndicatorView *)spinnerView {
     if (!_spinnerView) {
-        _spinnerView = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleMedium];
+        if (@available(iOS 13.0, *)) {
+            _spinnerView = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleMedium];
+        } else {
+            _spinnerView = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhite];
+        }
     }
     return _spinnerView;
 }
