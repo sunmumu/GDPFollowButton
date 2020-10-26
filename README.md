@@ -1,6 +1,9 @@
 # GDPFollowButton
 关注/互相关注/已关注/未关注, 多状态按钮
 
+## 效果
+
+![多状态按钮](https://github.com/sunmumu/GDPFollowButton/blob/main/Demo/%E6%95%88%E6%9E%9C.PNG?raw=true)
 
 ## Use法一 cocopods引用
 法一 cocopods引用
